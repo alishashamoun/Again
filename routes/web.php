@@ -34,11 +34,12 @@ Route::get('/', function () {
     Route::resource('roles', RoleController::class);
     Route::resource('users', UserController::class);
     Route::resource('product', ProductController::class);
+    Route::resource('category', ProductController::class);
     // });
     Route::get('/home', [FrontendController::class, 'home'])->name('home');
     Route::get('/about-us', [FrontendController::class, 'aboutUs'])->name('about-us');
     Route::get('/service', [FrontendController::class, 'Service'])->name('service');
     Route::get('/contact', [FrontendController::class, 'Contact'])->name('contact');
     Route::get('/collaboration', [FrontendController::class, 'Collaboration'])->name('collaboration');
-    
+
 require __DIR__.'/auth.php';
