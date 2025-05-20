@@ -51,7 +51,7 @@
                             tabindex="-1" aria-labelledby="offcanvasNavbarLabel">
                             <div class="offcanvas-header">
                                 <a class="navbar-brand" href="index.html"><img
-                                        src="{{ asset('') }}assets/images/frontend/phone-logo.png" alt="logo"
+                                        src="{{ asset('assets/images/frontend/phone-logo.png') }}" alt="logo"
                                         class="logo"></a>
                                 <button type="button" class="btn-close btn-close-black text-reset"
                                     data-bs-dismiss="offcanvas" aria-label="Close"></button>
